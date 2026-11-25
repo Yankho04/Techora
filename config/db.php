@@ -2,10 +2,11 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "style_hub";
+$database = "techora";
 
 $conn = mysqli_connect($host, $user, $password, $database);
 
 if (!$conn) {
     die("Database connection failed: " . mysqli_connect_error());
 }
+?>
